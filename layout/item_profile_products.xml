@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="24dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="336dp"
+        android:layout_height="136dp"
+        app:strokeColor="#6D6D6D"
+        app:strokeWidth="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата заказа"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#B0B0B0"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginBottom="106dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginBottom="106dp"
+            android:hint="Итого:"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/black"
+            android:textColorHint="#B0B0B0"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#8C8C8C"
+            android:layout_marginTop="41dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="523dp"
+            />
+        <TextView
+            android:layout_width="42dp"
+            android:layout_height="20dp"
+            android:text="Детали"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/dark_purple"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="110dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imgBtn_Details"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="318dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="108.79dp"
+            android:background="@drawable/icon_arrow"
+            />
+
+        <ImageView
+            android:id="@+id/img_product_profile1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="280dp"
+            android:background="@drawable/img_product1"
+            android:layout_marginBottom="35dp"/>
+        <ImageView
+            android:id="@+id/img_product_profile2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/img_product2"/>
+        <ImageView
+            android:id="@+id/img_product_profile3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="113dp"
+            android:background="@drawable/img_product3"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="35dp"/>
+        
+        <View
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="13.27dp"
+            android:background="@drawable/img_galochka"
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="96dp"
+            android:layout_height="16dp"
+            android:text="Дата заказа"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#67B454"
+            android:layout_marginTop="112dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="210dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

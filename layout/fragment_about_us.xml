@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.fragment.profile.AboutUs">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/tabBarLayout"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="70dp"
+            android:layout_height="50dp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:background="@color/white"
+                app:tabBackground="@color/white"
+                app:tabGravity="fill"
+                app:tabInlineLabel="true"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@android:color/black"
+                app:tabTextAppearance="@style/CustomTabLayout" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabBarLayout" />
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginBottom="739dp"
+            android:fontFamily="@font/roboto"
+            android:text="Профиль"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="497dp"
+            app:cardBackgroundColor="#C7B4FF"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginBottom="98dp"
+                android:fontFamily="@font/roboto"
+                android:text="Бренд натуральных продуктов"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="144dp"
+                android:layout_marginBottom="31dp"
+                android:fontFamily="@font/roboto"
+                android:text="Наша цель- сделать полезную
+                еду для здорового питания
+                доступным каждому"
+                android:textColor="@color/black"
+                android:textColorHint="#B0B0B0"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="189dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginBottom="21.49dp"
+                android:background="@drawable/white_circle" />
+
+            <View
+                android:layout_width="180dp"
+                android:layout_height="121.58dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="8.59dp"
+                android:background="@drawable/img_products" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="38.97dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="96.85dp"
+            android:layout_marginTop="284.71dp"
+            android:layout_marginEnd="1726.08dp"
+            android:layout_marginBottom="222.71dp"
+            android:background="@drawable/leaf1" />
+
+        <ImageView
+            android:layout_width="70.07dp"
+            android:layout_height="93.31dp"
+            android:layout_marginStart="3.77dp"
+            android:layout_marginTop="284.92dp"
+            android:layout_marginEnd="1708.34dp"
+            android:layout_marginBottom="307.37dp"
+            android:background="@drawable/leaf2" />
+
+        <ImageView
+            android:layout_width="26.68dp"
+            android:layout_height="28.01dp"
+            android:layout_marginStart="62.52dp"
+            android:layout_marginTop="415.08dp"
+            android:layout_marginEnd="273.81dp"
+            android:layout_marginBottom="1620.79dp"
+            android:background="@drawable/leaf3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="365dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginBottom="1695dp"
+            android:fontFamily="@font/roboto"
+            android:text="Делаем полезное вкусным"
+            android:textColor="#392250"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="5600"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="75 %"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="10600"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+
+            android:text="4,5 млн"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="продуктов под брендом OKAi"
+            android:textColor="#392250"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="ассортимента отечественного производства"
+            android:textColor="#392250"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="продуктов доступны с нашей бесплатной доставкой"
+            android:textColor="#392250"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="1643dp"
+            android:fontFamily="@font/roboto"
+            android:text="покупателей выбирают OKAi"
+            android:textColor="#392250"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="619dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="1286dp"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_cardview" />
+
+            <View
+                android:layout_width="107.11dp"
+                android:layout_height="112.99dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="183.88dp"
+                android:layout_marginBottom="21.99dp"
+                android:background="@drawable/white_circle" />
+
+            <View
+                android:layout_width="205.72dp"
+                android:layout_height="137.49dp"
+                android:layout_marginStart="12.45dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="124.45dp"
+                android:layout_marginBottom="1211.8dp"
+                android:background="@drawable/img_profile_food" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="91dp"
+                android:fontFamily="@font/roboto"
+                android:text="Лидеры по доставке
+                    \n                    продуктов"
+                android:textColor="#392250"
+                android:textColorHint="#B0B0B0"
+                android:textSize="16sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="56.07dp"
+            android:layout_height="52.31dp"
+            android:layout_marginStart="204.85dp"
+            android:layout_marginTop="804.23dp"
+            android:layout_marginEnd="1169.08dp"
+            android:layout_marginBottom="79.71dp"
+            android:src="@drawable/leaf1" />
+
+        <ImageView
+            android:layout_width="38.97dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="364.85dp"
+            android:layout_marginTop="821.97dp"
+            android:layout_marginEnd="5.08dp"
+            android:layout_marginBottom="1176.71dp"
+            android:background="@drawable/leaf3" />
+
+        <ImageView
+            android:layout_width="41.59dp"
+            android:layout_height="31.79dp"
+            android:layout_marginStart="124.85dp"
+            android:layout_marginTop="814.71dp"
+            android:layout_marginEnd="1185.08dp"
+            android:layout_marginBottom="186.71dp"
+            android:background="@drawable/leaf3" />
+
+        <ImageView
+            android:layout_width="30.66dp"
+            android:layout_height="30.21dp"
+            android:layout_marginStart="390.44dp"
+            android:layout_marginTop="936dp"
+            android:layout_marginEnd="12.08dp"
+            android:layout_marginBottom="1080.71dp"
+            android:background="@drawable/leaf3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="871dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="1161dp"
+            android:fontFamily="@font/roboto"
+            android:text="9 из 10"
+            android:textColor="#392250"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="896dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="1134dp"
+            android:fontFamily="@font/roboto"
+            android:text="покупателей оценивают доставку на отлично"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="941dp"
+            android:layout_marginEnd="326dp"
+            android:layout_marginBottom="1091dp"
+            android:fontFamily="@font/roboto"
+            android:text="1.5 тыс"
+            android:textColor="#392250"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="970dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="1060dp"
+            android:fontFamily="@font/roboto"
+            android:text="заказов в день доставляют наши курьеры"
+            android:textColor="#392250"
+            android:textSize="16sp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="1055dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="852dp"
+            app:cardBackgroundColor="#FFECF4"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:text="@string/йуцй"
+                android:textSize="12sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="1055dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="852dp"
+            app:cardBackgroundColor="#FFECF4"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:text="@string/йуцй"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="78.97dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="245.85dp"
+            android:layout_marginTop="1239.97dp"
+            android:layout_marginEnd="50.08dp"
+            android:layout_marginBottom="748.71dp"
+            android:background="@drawable/leaf1" />
+
+        <ImageView
+            android:layout_width="68.97dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="14.85dp"
+            android:layout_marginTop="1220.97dp"
+            android:layout_marginEnd="288.08dp"
+            android:layout_marginBottom="766.71dp"
+            android:background="@drawable/leaf3" />
+
+        <ImageView
+            android:layout_width="57.88dp"
+            android:layout_height="90.99dp"
+            android:layout_marginStart="128.21dp"
+            android:layout_marginTop="1222.86dp"
+            android:layout_marginEnd="153.86dp"
+            android:layout_marginBottom="753.58dp"
+            android:src="@drawable/img_arrows" />
+
+        <ImageView
+            android:layout_width="78.97dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="70.85dp"
+            android:layout_marginTop="1477.97dp"
+            android:layout_marginEnd="228.08dp"
+            android:layout_marginBottom="436.71dp"
+            android:background="@drawable/leaf3" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="1304dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="603dp"
+            app:cardBackgroundColor="#FFECF4"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="287dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:text="@string/asd"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="78.97dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="70.85dp"
+            android:layout_marginTop="1477.97dp"
+            android:layout_marginEnd="228.08dp"
+            android:layout_marginBottom="436.71dp"
+            android:background="@drawable/leaf3" />
+
+        <ImageView
+            android:layout_width="57.88dp"
+            android:layout_height="90.99dp"
+            android:layout_marginStart="188.55dp"
+            android:layout_marginTop="1457.86dp"
+            android:layout_marginEnd="78.86dp"
+            android:layout_marginBottom="497.58dp"
+            android:scaleX="-1"
+            android:src="@drawable/img_arrows" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="1553dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="372dp"
+            app:cardBackgroundColor="#FFECF4"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="287dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:text="@string/zxc"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="78.97dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="326.85dp"
+            android:layout_marginTop="1687.97dp"
+            android:layout_marginEnd="103.08dp"
+            android:layout_marginBottom="320.71dp"
+            android:background="@drawable/leaf2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="1794dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="170dp"
+            android:fontFamily="@font/roboto"
+            android:text="Наши партнеры"
+            android:textColor="#392250"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="1883dp"
+            android:layout_marginEnd="279dp"
+            android:layout_marginBottom="68.29dp"
+            android:src="@drawable/img_frunze" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="1883dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="68.43dp"
+            android:src="@drawable/img_glovo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="1883dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="67.82dp"
+            android:src="@drawable/img_globus" />
+
+    </FrameLayout>
+
+
+</ScrollView>
+

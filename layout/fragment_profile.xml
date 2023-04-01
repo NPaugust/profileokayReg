@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.fragment.profile.ProfileFragment"
+    android:fillViewport="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/tabBarLayout"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="65dp"
+            android:layout_height="50dp">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="57dp"
+                    android:background="@color/white"
+                    app:tabBackground="@color/white"
+                    app:tabGravity="fill"
+                    app:tabInlineLabel="true"
+                    app:tabMode="scrollable"
+                    app:tabSelectedTextColor="@android:color/black"
+                    app:tabTextAppearance="@style/CustomTabLayout" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_marginTop="57dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabBarLayout" />
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginBottom="739dp"
+            android:fontFamily="@font/roboto"
+            android:text="Профиль"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="142dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="620dp"
+            android:autofillHints=""
+            android:background="@drawable/roundet_edittext"
+            android:hint="Введите ваше имя"
+            android:paddingStart="51dp"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="33.71dp"
+            android:layout_marginTop="159dp"
+            android:layout_marginEnd="317.7dp"
+            android:layout_marginBottom="634dp"
+            android:background="@drawable/icon_profile" />
+
+        <View
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="355dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="632dp"
+            android:background="@drawable/icon_pen" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="556dp"
+            android:autofillHints=""
+            android:background="@drawable/roundet_edittext"
+            android:hint="com.example@gmail.com"
+            android:paddingStart="51dp"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="33.71dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="317.7dp"
+            android:layout_marginBottom="634dp"
+            android:background="@drawable/icon_email" />
+
+        <View
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="355dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="578dp"
+            android:background="@drawable/icon_pen" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="274dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="512dp"
+            android:autofillHints=""
+            android:background="@drawable/roundet_edittext"
+            android:hint="+996 700 000 000"
+            android:paddingStart="51dp"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="33.71dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="317.7dp"
+            android:layout_marginBottom="634dp"
+            android:background="@drawable/icon_call" />
+
+        <View
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="355dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="524dp"
+            android:background="@drawable/icon_pen" />
+
+
+    </FrameLayout>
+
