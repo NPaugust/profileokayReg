@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".presentation.ui.fragment.profile.Contacts">
 
     <com.google.android.material.tabs.TabLayout
@@ -43,8 +43,8 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/roboto"
         android:paddingTop="16dp"
-        android:textAlignment="center"
         android:text="Профиль"
+        android:textAlignment="center"
         android:textColor="@color/purple"
         android:textSize="18sp"
         android:textStyle="bold"

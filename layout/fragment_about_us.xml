@@ -140,14 +140,21 @@
         </com.google.android.material.card.MaterialCardView>
 
         <ImageView
+            android:layout_width="26.97dp"
+            android:layout_height="26dp"
+            android:background="@drawable/leaf1"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.201"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/materialCardView"
+            app:layout_constraintVertical_bias="0.328" />
+
+        <ImageView
             android:layout_width="38.97dp"
             android:layout_height="69dp"
-            android:layout_marginStart="96.85dp"
-            android:layout_marginTop="264.88dp"
-            android:layout_marginEnd="1726.08dp"
-            android:layout_marginBottom="222.71dp"
-            android:background="@drawable/leaf1"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/leaf2"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -155,34 +162,27 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:layout_width="70.07dp"
-            android:layout_height="93.31dp"
-            android:layout_marginStart="3.77dp"
-            android:layout_marginTop="284.92dp"
-            android:layout_marginEnd="1708.34dp"
-            android:layout_marginBottom="307.37dp"
-            android:background="@drawable/leaf2"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="26dp"
+            android:layout_height="41dp"
+            android:background="@drawable/leaf1"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.309"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintTop_toBottomOf="@id/materialCardView"
+            app:layout_constraintVertical_bias="0.0" />
+
 
         <ImageView
-            android:layout_width="26.68dp"
-            android:layout_height="28.01dp"
-            android:layout_marginStart="62.52dp"
-            android:layout_marginTop="415.08dp"
-            android:layout_marginEnd="273.81dp"
-            android:layout_marginBottom="1620.79dp"
+            android:layout_width="40dp"
+            android:layout_height="40.01dp"
             android:background="@drawable/leaf3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.145"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.57" />
 
         <TextView
             android:id="@+id/textView8"
@@ -198,10 +198,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintHorizontal_bias="0.195"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/materialCardView"
-            app:layout_constraintVertical_bias="0.292" />
+            app:layout_constraintVertical_bias="0.288" />
 
         <TextView
             android:id="@+id/textView13"
@@ -273,7 +273,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:layout_constraintVertical_bias="0.666" />
 
-        z
 
         <TextView
             android:id="@+id/textView15"
@@ -409,67 +408,17 @@
                 android:textColor="#392250"
                 android:textColorHint="#B0B0B0"
                 android:textSize="16sp" />
-        </com.google.android.material.card.MaterialCardView>
 
-        <ImageView
-            android:layout_width="56.07dp"
-            android:layout_height="52.31dp"
-            android:layout_marginStart="204.85dp"
-            android:layout_marginTop="804.23dp"
-            android:layout_marginEnd="1169.08dp"
-            android:layout_marginBottom="79.71dp"
-            android:src="@drawable/leaf1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+        </com.google.android.material.card.MaterialCardView>
 
         <ImageView
             android:layout_width="38.97dp"
             android:layout_height="69dp"
-            android:layout_marginStart="364.85dp"
-            android:layout_marginTop="821.97dp"
-            android:layout_marginEnd="5.08dp"
-            android:layout_marginBottom="1176.71dp"
-            android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            android:layout_marginTop="34dp"
 
-        <ImageView
-            android:layout_width="41.59dp"
-            android:layout_height="31.79dp"
-            android:layout_marginStart="124.85dp"
-            android:layout_marginTop="814.71dp"
-            android:layout_marginEnd="1185.08dp"
-            android:layout_marginBottom="186.71dp"
             android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
-
-        <ImageView
-            android:layout_width="30.66dp"
-            android:layout_height="30.21dp"
-            android:layout_marginStart="390.44dp"
-            android:layout_marginTop="936dp"
-            android:layout_marginEnd="12.08dp"
-            android:layout_marginBottom="1080.71dp"
-            android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
         <TextView
             android:id="@+id/textView18"
@@ -529,6 +478,7 @@
             app:layout_constraintVertical_bias="0.218" />
 
         <TextView
+            android:id="@+id/textView24"
             android:layout_width="344dp"
             android:layout_height="23dp"
             android:layout_marginStart="11dp"
@@ -546,6 +496,7 @@
             app:layout_constraintVertical_bias="0.073" />
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView5"
             android:layout_width="380dp"
             android:layout_height="160dp"
             android:layout_marginStart="13dp"
@@ -573,6 +524,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView1"
             android:layout_width="380dp"
             android:layout_height="160dp"
             android:layout_marginStart="13dp"
@@ -602,64 +554,21 @@
         </com.google.android.material.card.MaterialCardView>
 
         <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="78.97dp"
             android:layout_height="99dp"
-            android:layout_marginStart="245.85dp"
-            android:layout_marginTop="1239.97dp"
-            android:layout_marginEnd="50.08dp"
-            android:layout_marginBottom="748.71dp"
             android:background="@drawable/leaf1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
 
         <ImageView
             android:layout_width="68.97dp"
             android:layout_height="60dp"
-            android:layout_marginStart="14.85dp"
-            android:layout_marginTop="1220.97dp"
-            android:layout_marginEnd="288.08dp"
-            android:layout_marginBottom="766.71dp"
+            android:layout_marginStart="264dp"
+            android:layout_marginTop="44dp"
             android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
-
-        <ImageView
-            android:layout_width="57.88dp"
-            android:layout_height="90.99dp"
-            android:layout_marginStart="128.21dp"
-            android:layout_marginTop="1222.86dp"
-            android:layout_marginEnd="153.86dp"
-            android:layout_marginBottom="753.58dp"
-            android:src="@drawable/img_arrows"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
-
-        <ImageView
-            android:layout_width="78.97dp"
-            android:layout_height="99dp"
-            android:layout_marginStart="70.85dp"
-            android:layout_marginTop="1477.97dp"
-            android:layout_marginEnd="228.08dp"
-            android:layout_marginBottom="436.71dp"
-            android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView4"
@@ -693,35 +602,13 @@
         </com.google.android.material.card.MaterialCardView>
 
         <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="78.97dp"
             android:layout_height="99dp"
-            android:layout_marginStart="70.85dp"
-            android:layout_marginTop="1477.97dp"
-            android:layout_marginEnd="228.08dp"
-            android:layout_marginBottom="436.71dp"
-            android:background="@drawable/leaf3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.515"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
 
-        <ImageView
-            android:layout_width="57.88dp"
-            android:layout_height="90.99dp"
-            android:layout_marginStart="188.55dp"
-            android:layout_marginTop="1457.86dp"
-            android:layout_marginEnd="78.86dp"
-            android:layout_marginBottom="497.58dp"
-            android:scaleX="-1"
-            android:src="@drawable/img_arrows"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            android:background="@drawable/leaf3"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView3"
@@ -750,6 +637,7 @@
                 android:text="@string/zxc"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
+
         </com.google.android.material.card.MaterialCardView>
 
 
@@ -816,6 +704,7 @@
             app:layout_constraintVertical_bias="0.174" />
 
         <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="1dp"
@@ -826,6 +715,68 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
             app:layout_constraintVertical_bias="0.13" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="66dp"
+            android:layout_height="94dp"
+            android:background="@drawable/leaf2"
+            app:layout_constraintBottom_toTopOf="@+id/materialCardView4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="57.88dp"
+            android:layout_height="90.99dp"
+            android:layout_marginStart="104dp"
+            android:src="@drawable/img_arrows"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView5" />
+
+        <ImageView
+            android:layout_width="57.88dp"
+            android:layout_height="90.99dp"
+            android:layout_marginEnd="60dp"
+            android:scaleX="-1"
+            android:src="@drawable/img_arrows"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView4" />
+
+        <ImageView
+            android:layout_width="78.97dp"
+            android:layout_height="99dp"
+            android:background="@drawable/leaf3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView4" />
+
+        <ImageView
+            android:layout_width="30.66dp"
+            android:layout_height="26dp"
+            android:background="@drawable/leaf3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.708" />
+
+        <ImageView
+            android:layout_width="56.07dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="172dp"
+
+            android:layout_marginTop="40dp"
+            android:src="@drawable/leaf1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="41.59dp"
+            android:layout_height="31.79dp"
+            android:background="@drawable/leaf3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
