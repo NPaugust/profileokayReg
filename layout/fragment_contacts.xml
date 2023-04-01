@@ -113,15 +113,19 @@
         android:textSize="18sp" />
 
     <ImageView
+        android:id="@+id/img_whatsapp"
+        android:backgroundTint="@color/white"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/icon_whatsapp"
+
         android:layout_marginTop="393.5dp"
         android:layout_marginStart="120.5dp"
         android:layout_marginEnd="237.5dp"
         android:layout_marginBottom="381.5dp"
         />
     <ImageView
+        android:id="@+id/img_instagram"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/icon_instagram"
@@ -131,6 +135,8 @@
         android:layout_marginBottom="381.5dp"
         />
     <ImageView
+        android:id="@+id/img_facebook"
+        android:backgroundTint="@color/white"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/icon_facebook"

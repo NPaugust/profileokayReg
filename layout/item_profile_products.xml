@@ -8,6 +8,7 @@
     >
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardvw_order"
         android:layout_width="336dp"
         android:layout_height="136dp"
         app:strokeColor="#6D6D6D"

@@ -53,6 +53,7 @@
         android:textStyle="bold" />
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/history_details"
         android:layout_width="380dp"
         android:layout_height="136dp"
         android:layout_marginStart="16dp"
